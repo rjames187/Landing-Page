@@ -6,9 +6,8 @@ body {
 header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    
+    justify-content: space-between;
+    padding: 20px 180px;
 }
 
 .header-left {
