@@ -69,3 +69,45 @@ button {
     align-items: center;
     justify-content: center;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 180px 100px 180px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.info-subsec {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-tile {
+    width: 165px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+
+.empty-box {
+    width: 155px;
+    height: 155px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.info-tile p {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+    margin: 10px;
+}
