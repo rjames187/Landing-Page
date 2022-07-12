@@ -56,9 +56,12 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 5px 20px;
+    border-radius: 7px;
+}
+
+.hero-left button {
     width: 30%;
     border: none;
-    border-radius: 10px;
 }
 
 .hero-right {
@@ -139,4 +142,43 @@ button {
     font-weight: 800;
     color: #1F2937;
     text-align: right;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px;
+}
+
+.cta-con {
+    background-color: #3882F6;
+    border-radius: 10px;
+    flex: 1;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.cta-text h2 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.cta-text p {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.cta-con button {
+    border: 2px solid white;
+    margin-bottom: 7px;
+    width: 100px;
 }
