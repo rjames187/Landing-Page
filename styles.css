@@ -10,8 +10,14 @@ body {
 header {
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.header-cont {
+    width: 840px;
+    display: flex;
     justify-content: space-between;
-    padding: 20px 180px;
 }
 
 .header-left {
@@ -28,8 +34,14 @@ header {
 
 .hero {
     background-color: #1F2937;
-    padding: 100px 180px;
     display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.hero-cont {
+    display: flex;
+    width: 840px;
 }
 
 .hero-left {
@@ -75,10 +87,17 @@ button {
 
 .info {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px 200px 100px 200px;
+    padding: 20px 0px 100px 0px;
+}
+
+.info-cont {
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+    align-items: center;
+    justify-content: center;
 }
 
 .info-header {
@@ -93,7 +112,7 @@ button {
 }
 
 .info-tile {
-    width: 165px;
+    width: 145px;
     height: 240px;
     display: flex;
     flex-direction: column;
@@ -102,8 +121,8 @@ button {
 }
 
 .empty-box {
-    width: 155px;
-    height: 155px;
+    width: 130px;
+    height: 130px;
     border: 5px solid #3882F6;
     border-radius: 15px;
 }
@@ -116,7 +135,7 @@ button {
 }
 
 .quote {
-    padding: 100px 200px;
+    padding: 100px 0px;
     background-color: #E5E7EB;
     display: flex;
     align-items: center;
@@ -126,6 +145,7 @@ button {
 .quote-content {
     display: flex;
     flex-direction: column;
+    width: 740px;
 }
 
 .quote-body {
@@ -148,17 +168,17 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 200px;
+    padding: 100px 0px;
 }
 
 .cta-con {
     background-color: #3882F6;
     border-radius: 10px;
-    flex: 1;
     padding: 50px 100px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    width: 640px;
 }
 
 .cta-text {
